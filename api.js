@@ -483,8 +483,8 @@ app.get("/api/cases", async (req, res) => {
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "m78595322@gmail.com", // Your Gmail email address
-    pass: "ycwc xxpx oqre wtun", // Your Gmail email password
+    user: "jakegaandmaro231@gmail.com", // Your Gmail email address
+    pass: "tnhm nkkb cset pnxm", // Your Gmail email password
   },
 });
 
@@ -519,7 +519,7 @@ app.post("/api/send-otp", async (req, res) => {
   // Implement your logic to send mobile OTP (use SMS gateway or any other service)
 
   const mailOptions = {
-    from: "m78595322@gmail.com",
+    from: "jakegaandmaro231@gmail.com",
     to: email,
     subject: "Your OTP for Verification",
     text: `Your One-Time Password (OTP) for registration is: ${emailOTP}`,
@@ -571,7 +571,7 @@ app.post("/api/forgotpassword", async (req, res) => {
     // Implement your logic to send mobile OTP (use SMS gateway or any other service)
 
     const mailOptions = {
-      from: "m78595322@gmail.com",
+      from: "jakegaandmaro231@gmail.com",
       to: email,
       subject: "Your OTP for Verification",
       text: `Your One-Time Password (OTP) for registration is: ${emailOTP}`,
@@ -797,13 +797,13 @@ const sendEmail = async (to, subject, text) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "m78595322@gmail.com", // Replace with your Gmail email address
-      pass: "ycwc xxpx oqre wtun", // Replace with your Gmail email password
+      user: "jakegaandmaro231@gmail.com", // Replace with your Gmail email address
+      pass: "tnhm nkkb cset pnxm", // Replace with your Gmail email password
     },
   });
 
   const qmailOptions = {
-    from: "m78595322@gmail.com",
+    from: "jakegaandmaro231@gmail.com",
     to,
     subject,
     text,
@@ -1085,13 +1085,13 @@ app.post("/api/accepted", async (req, res) => {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "m78595322@gmail.com", // Replace with your Gmail email address
-        pass: "ycwc xxpx oqre wtun", // Replace with your Gmail email password
+        user: "jakegaandmaro231@gmail.com", // Replace with your Gmail email address
+        pass: "tnhm nkkb cset pnxm", // Replace with your Gmail email password
       },
     });
 
     const mailOptions = {
-      from: "m78595322@gmail.com",
+      from: "jakegaandmaro231@gmail.com",
       to,
       subject,
       text,
@@ -1123,13 +1123,13 @@ app.post("/api/declined", async (req, res) => {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "m78595322@gmail.com", // Replace with your Gmail email address
-        pass: "ycwc xxpx oqre wtun", // Replace with your Gmail email password
+        user: "jakegaandmaro231@gmail.com", // Replace with your Gmail email address
+        pass: "tnhm nkkb cset pnxm", // Replace with your Gmail email password
       },
     });
 
     const mailOptions = {
-      from: "m78595322@gmail.com",
+      from: "jakegaandmaro231@gmail.com",
       to,
       subject,
       text,
